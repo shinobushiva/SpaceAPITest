@@ -1,0 +1,10 @@
+@(message: String)
+
+@main("Welcome to Play") {
+
+    @play20.welcome(message, style = "Java")
+
+}
+
+<script src="@routes.Assets.at("bower_components/webcomponentsjs/webcomponents.min.js")" type="text/javascript"></script>
+<link rel="import" href="@routes.Assets.at("elements/my-element.html")">
