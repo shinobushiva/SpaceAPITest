@@ -7727,3 +7727,10 @@ Copy resource mappings:
 Total time: 8 s, completed 2015/03/15 4:44:54
 > server-post-command-cleanup
 > server-handle-next-server-request
+Done executing sbt server engine, result Right(Exit(0))
+Closing listening server socket
+Waiting for socket thread
+Waiting for request processor thread
+Waiting for command engine result
+Returning control to sbt launcher with result Exit(0)
+Closing the 3782@IzumiKen-no-MacBook-Air.local logs at Sun Mar 15 04:53:33 JST 2015, goodbye.
