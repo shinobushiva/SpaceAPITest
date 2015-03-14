@@ -5,3 +5,9 @@ New client attempting to connect on port: 52253-52252
 This client on port 52253 has uuid 66018ce0-13ca-4cc3-9f56-931ad4823533 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
 Connected Clients: play-fork-run-66018ce0-13ca-4cc3-9f56-931ad4823533
 Taking next connection to: 52252
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 4616@IzumiKen-no-MacBook-Air.local logs at Sun Mar 15 05:06:35 JST 2015, goodbye.
