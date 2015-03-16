@@ -147,7 +147,7 @@
 			googleMapDragend: function(e, detail){
 				console.log("googleMapDragend");
 				this.centerLat = this.$.map.latitude;
-				this.centerLon = this.$.map.longitude;
+				this.centerLon = (this.$.map.longitude + 360.0) % 360.0;
 			},
 			googleMapReady: function(e, detail){
 				console.log("googleMapReady");
